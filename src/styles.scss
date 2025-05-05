@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@use "fonts";
+
+body{
+  background-color:#222222 ;
+  color: white;
+  min-width: 320px;
+  min-height:320px;
+}
