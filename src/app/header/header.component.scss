@@ -1,0 +1,28 @@
+.main-page-header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  position: fixed;
+  top: 0;
+  background-color: #222222;
+  min-height: 10vh;
+  width: 100%;
+  z-index: 6;
+}
+.header-text{
+  width: 154px;
+  height: 29px;
+  font-family: 'Prata';
+
+}
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+  height: 11px;
+  padding: 10px;
+}
+.active{
+  color: green;
+}

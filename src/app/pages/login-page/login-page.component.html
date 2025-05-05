@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="login-page">
+  <div class="login-text">
+  <h1>Send mail - receive JOKEHUB</h1>
+<div class="validatorsForm" [formGroup]="validatorsForm">
+  <div>
+    <input class="input-form" type="text" id="username" formControlName="username" placeholder="Name"/>
+  </div>
+  <div>
+    <input class="input-form" type="text" id="email" formControlName="email" placeholder="Email"/>
+    <small [hidden]="this.validatorsForm.get('email')?.valid || this.validatorsForm.get('email')?.untouched" class="alert">
+      Неправильно введены данные
+    </small>
+  </div>
+  <div class="accept-checkbox">
+  <input type="checkbox" class="checkbox"/>
+  <label >I never read what I sign, so give me mine JOKEHUB quickly </label>
+  </div>
+  <button class="btn_valid" (click)="handleValidator()" [disabled]="!validatorsForm">I WANNA GET MY JOKEHUB</button>
+</div>
+<img src="/img/background.png" class="background-img">
+<img src="/img/woman.png" class="woman-img">
+</div>
+</div>
+<app-footer></app-footer>

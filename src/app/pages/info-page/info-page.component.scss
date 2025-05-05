@@ -1,0 +1,60 @@
+.info-page{
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.info{
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.info-img{
+  width: 100dvh;
+  height: auto;
+  overflow: hidden;
+}
+ul
+{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+}
+li{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  height: auto;
+  margin: 15px;
+  padding: 15px;
+  font-size: 24px;
+  border-bottom: 1px solid #55565A;
+  flex-wrap: wrap;
+}
+li::before {
+  content: url('/svg/Exclude.svg');
+}
+li:last-child {
+  border: none;
+}
+.order-btn{
+  position: absolute;
+  width: 85%;
+  height: 78px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 8px;
+  bottom: 0;
+}
+.joke-list{
+  color: orange;
+}
